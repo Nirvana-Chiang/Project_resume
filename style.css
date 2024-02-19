@@ -4,15 +4,15 @@
 }
 
 body {
-  width: 96%;
+  width: 100%;
   height: 100%;
+  margin: -20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .resume {
-  zoom: 0.9
   display: flex;
   width: 80%;
   min-width: 1280px;
@@ -35,11 +35,14 @@ body {
 }
 
 html {
+  margin: 0;
+  padding: -20px 0;
   background-color: #858FA1;
+  transform: scale(0.8)
 }
 
 .resume {
-  margin: 30px 0px;
+  margin: 0;
   border: solid 2px;
   border-radius: 10px;
   padding: 60px 40px;
