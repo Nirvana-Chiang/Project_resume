@@ -157,7 +157,7 @@ html {
 
 .block {
   position: relative;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .block h3, .block h4 {
   margin: 0;
@@ -173,10 +173,11 @@ html {
   float: right;
 }
 .block.intro .p_intro {
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
   letter-spacing: 1px;
   margin-top: 24px;
-  line-height: 26px;
 }
 .block.intro .p_intro .cheet {
   font-size: 18px;
@@ -184,7 +185,6 @@ html {
 }
 
 .exp_block {
-  margin: -20px 0 0 0;
   display: flex;
 }
 .exp_block .img:hover {
@@ -217,8 +217,10 @@ html {
   line-height: 20px;
 }
 .block.education p {
-  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 500;
   line-height: 20px;
+  margin: 20px 0;
 }
 .block.education .point1 {
   margin-top: 30px;
@@ -237,8 +239,10 @@ html {
   flex: 1;
 }
 .block.experience p {
-  line-height: 20px;
-  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  margin: 12px 0 0 0;
 }
 .block.experience h5 {
   line-height: 20px;
