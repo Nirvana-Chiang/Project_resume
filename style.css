@@ -1,0 +1,334 @@
+* {
+  font-family: "Noto Sans TC", sans-serif;
+  transition-duration: 0.3s;
+}
+
+body {
+  width: 96%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume {
+  display: flex;
+  width: 80%;
+  min-width: 1280px;
+}
+
+.left {
+  flex: 1;
+  position: relative;
+  padding: 0 20px;
+}
+
+.middle {
+  flex: 2;
+  padding: 0 20px;
+  border-right: solid 1px black;
+}
+
+.right {
+  flex: 1;
+}
+
+html {
+  background-color: #858FA1;
+}
+
+.resume {
+  margin: 30px 0px;
+  border: solid 2px;
+  border-radius: 10px;
+  padding: 60px 40px;
+  background-color: #e5e4e3;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  box-shadow: 0 3px 20px #555;
+}
+
+.profile {
+  width: 100%;
+}
+.profile .protrait {
+  margin: 0px auto;
+  text-align: center;
+  position: relaitve;
+  background-image: url(https://hackmd.io/_uploads/BkDxUrxha.jpg);
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-top: -20px;
+}
+.profile .name {
+  margin: 0px auto;
+  text-align: center;
+  position: relaitve;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 20px;
+}
+.profile .name span {
+  margin-left: 20px;
+}
+.profile .age {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 2px;
+  margin: 20px 0 0 0;
+}
+
+.contact .icon {
+  margin-top: 6px;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+.contact span {
+  margin-left: 24px;
+}
+.contact .phone {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/455/455705.png);
+}
+.contact .mail {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/181/181535.png);
+}
+
+.mouse {
+  position: absolute;
+  right: 80px;
+  top: -8px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-image: url(https://hackmd.io/_uploads/rytPFYena.png);
+}
+
+.toeic {
+  position: relative;
+  margin: 20px 0 0 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0;
+}
+.toeic:hover {
+  cursor: pointer;
+}
+.toeic:hover .img_toeic {
+  display: block;
+  opacity: 1;
+}
+.toeic .img_toeic {
+  z-index: 2;
+  width: 500px;
+  height: 250px;
+  border: solid 3px black;
+  position: absolute;
+  bottom: 16px;
+  display: none;
+  opacity: 0;
+  background-image: url(https://hackmd.io/_uploads/HkA2Vtl3p.jpg);
+  background-size: cover;
+}
+
+.tags {
+  margin-top: 20px;
+}
+.tags p {
+  margin: 8px 0 -2px 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 14px;
+}
+.tags h2 {
+  margin: 0;
+}
+.tags .tag {
+  display: inline-block;
+  padding: 3px 8px;
+  margin-right: 5px;
+  margin-top: 10px;
+  border: solid 1px black;
+}
+
+.block {
+  position: relative;
+  margin-top: 20px;
+}
+.block h3, .block h4 {
+  margin: 0;
+}
+.block h3, .block h4 {
+  padding: 2px 0;
+}
+
+.block.intro .intro_top, .block.intro .tags {
+  display: inline-block;
+}
+.block.intro .tags {
+  float: right;
+}
+.block.intro .p_intro {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 24px;
+  line-height: 26px;
+}
+.block.intro .p_intro .cheet {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.exp_block {
+  margin: -20px 0 0 0;
+  display: flex;
+}
+.exp_block .img:hover {
+  cursor: pointer;
+}
+.exp_block .img:hover .img_diploma {
+  display: block;
+}
+.exp_block .img_diploma {
+  z-index: 2;
+  width: 600px;
+  height: 405px;
+  position: absolute;
+  left: 120px;
+  top: -350px;
+  border: solid 5px black;
+  display: none;
+  filter: brightness(0.9);
+  background-image: url(https://hackmd.io/_uploads/HJyuldlh6.jpg);
+  background-size: cover;
+}
+
+.block.education {
+  flex: 1;
+}
+.block.education h5 {
+  font-size: 18px;
+  margin-top: 26px;
+  margin-bottom: -12px;
+  line-height: 20px;
+}
+.block.education p {
+  margin-bottom: 12px;
+  line-height: 20px;
+}
+.block.education .point1 {
+  margin-top: 30px;
+}
+.block.education .point2 {
+  margin-top: 70px;
+}
+.block.education .point3 {
+  margin-top: 112px;
+}
+.block.education .point4 {
+  margin-top: 198px;
+}
+
+.block.experience {
+  flex: 1;
+}
+.block.experience p {
+  line-height: 20px;
+  margin: 0;
+}
+.block.experience h5 {
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.block.experience .point4 {
+  margin-top: 30px;
+}
+.block.experience .point5 {
+  margin-top: 82px;
+}
+.block.experience .point6 {
+  margin-top: 164px;
+}
+.block.experience .point7 {
+  margin-top: 186px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  border: solid 1px #333;
+  padding: 2px 12px;
+}
+
+.right {
+  padding: 0 0 0 20px;
+}
+.right a {
+  background-color: #555;
+  color: #ddd;
+}
+.right br {
+  margin-bottom: 24px;
+}
+.right h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 12px;
+  margin: 0 0 20px 0;
+}
+.right h5 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 12px;
+  margin: 20px 0 5px 0;
+}
+.right p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.right .design, .right .serendipity {
+  margin: 40px 0 0 0;
+}
+
+.timeline {
+  height: 240px;
+}
+.timeline .line {
+  width: 2px;
+  height: 240px;
+  background-color: black;
+  position: absolute;
+  margin: 12px 0 5px 48px;
+}
+.timeline .point {
+  width: 8px;
+  height: 8px;
+  background-color: #222;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 45px;
+}
+.timeline .hline {
+  width: 24px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  margin: 12px 0 5px 40px;
+}
+
+.word {
+  margin: 0px 0 0 72px;
+  position: absolute;
+  line-height: 52px;
+}
+.word .mouse {
+  top: 70px;
+  left: 120px;
+}
