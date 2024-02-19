@@ -12,6 +12,7 @@ body {
 }
 
 .resume {
+  zoom: 0.9
   display: flex;
   width: 80%;
   min-width: 1280px;
